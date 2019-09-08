@@ -1,0 +1,41 @@
+/* Sources: */
+/* https://jaketrent.com/post/spacing-between-multiline-flexbox-child-elements/ */
+/* https://www.w3.org/TR/css-flexbox-1/ */
+/* https://stackoverflow.com/questions/43520932/make-flex-grow-expand-items-based-on-their-original-size */
+/*  */
+
+:root {
+    --square-size: 50px;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.square-list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.square {
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 6px;
+    /* Lay out item's contents vertically */
+    flex-flow: column;
+    /* flex: auto; -- all boxes will grow so that each one takes an equal amount of space on the row -- not what we want here */
+    flex: none;
+}
+
+.square:hover {
+    /* cant use flex-grow because that is relative to the full free space on the row, not the item size */
+    width: calc( 3 * var(--square-size));
+    transition: width .2s linear;
+}

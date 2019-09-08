@@ -1,0 +1,14 @@
+:root {
+    --main-color: #fdd341;
+    --secondary-color: darkslateblue;
+    --white: white;
+    --gray: #F5F5F5;
+    --black: black;
+
+    --content-width: 720px;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: var(--gray);
+}

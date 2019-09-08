@@ -1,0 +1,42 @@
+:root {
+    --main-color: #fdd341;
+    --secondary-color: darkslateblue;
+    --white: white;
+    --gray: #F5F5F5;
+    --black: black;
+
+    --content-width: 720px;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: var(--gray);
+}
+
+header {
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--main-color);
+    color: var(--black);
+    font-weight: bold;
+}
+
+.header-container {
+    max-width: var(--content-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-photo {
+    width: 150px;
+}
+
+.header-social-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.header-social-container > a {
+    text-decoration: none;
+}

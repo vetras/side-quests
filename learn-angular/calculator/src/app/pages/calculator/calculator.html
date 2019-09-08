@@ -1,0 +1,39 @@
+<div id="calculator" class="animated-background">
+
+  <div class="display-box">{{display}}</div>
+
+  <div id="main">
+    <div class="first-rows">
+      <button (dblclick)="clearScreen()" (click)="clearDigit()" class="del-bg large">Del</button>
+      <button (click)="operation('%')" class="btn-style operator opera-bg fall-back">%</button>
+      <button (click)="operation('+')" class="btn-style opera-bg value align operator">+</button>
+    </div>
+
+    <div class="rows">
+      <numeric-button class="first-child" [digitValue]="buttonValues[7]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button [digitValue]="buttonValues[8]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button [digitValue]="buttonValues[9]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <button (click)="operation('-')" class="btn-style opera-bg operator">-</button>
+    </div>
+
+    <div class="rows">
+      <numeric-button class="num first-child" [digitValue]="buttonValues[4]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button class="num" [digitValue]="buttonValues[5]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button class="num" [digitValue]="buttonValues[6]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <button (click)="operation('*')" class="btn-style opera-bg operator">x</button>
+    </div>
+
+    <div class="rows">
+      <numeric-button class="first-child" [digitValue]="buttonValues[1]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button [digitValue]="buttonValues[2]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <numeric-button [digitValue]="buttonValues[3]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <button (click)="operation('/')" class="btn-style opera-bg operator">/</button>
+    </div>
+
+    <div class="rows">
+      <numeric-button overrideCss="large num-bg zero" [digitValue]="buttonValues[0]" (onClick)="onNumericButtonClick($event)"></numeric-button>
+      <button (click)="onNumericButtonClick('.')" class="btn-style num-bg period fall-back">.</button>
+      <button (click)="equal()" class="eqn eqn-bg align">=</button>
+    </div>
+  </div>
+</div>

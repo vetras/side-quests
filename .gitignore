@@ -1,0 +1,25 @@
+# IDEs
+.vs/
+.vscode/
+.idea/
+**.suo
+**.user
+**.iml
+
+# builds
+bin/
+obj/
+dist/
+target/
+.settings/
+.project
+.classpath
+.factorypath
+node_modules/
+**/__pychache__/
+
+# files
+.DS_Store
+**.log
+**.dump
+**.pyc

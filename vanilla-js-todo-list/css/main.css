@@ -1,0 +1,8 @@
+
+/*  add a border arround all elements while developing */
+* { border: 1px solid black; }
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}

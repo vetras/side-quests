@@ -1,0 +1,6 @@
+5
+insert 0 5
+insert 1 10
+insert 0 6
+remove 6
+print

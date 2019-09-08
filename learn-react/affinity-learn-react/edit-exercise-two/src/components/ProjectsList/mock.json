@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "mock dashboard",
+      "description": "mock dashboard project",
+      "images": [
+        {
+          "url": "https://media.graphcms.com/QMfuQ1UZSTOidG9Be6vp"
+        }
+      ]
+    },
+    {
+      "id": "mock calendar",
+      "description": "mock calendar project",
+      "images": [
+        {
+          "url": "https://media.graphcms.com/iVoo7lVpQfyvYrqB63U9"
+        }
+      ]
+    }
+  ]
+}

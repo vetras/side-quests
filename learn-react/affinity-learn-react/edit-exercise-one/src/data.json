@@ -1,0 +1,22 @@
+{
+    "user": {
+        "name": "Brad",
+        "surname": "Pitt",
+        "photo": "https://media.graphcms.com/50KWyFtS26yxsKMjhbaQ",
+        "description": "Hi there, I'm a passionate front-end developer who loves to build beautiful interfaces using the most modern web technologies. This portfolio for example, is built using React and GraphQL, these are just some of the technologies I love! I'm currently looking for an opportunity in Porto, give me a call 👋"
+    },
+    "social": [
+        {
+            "label": "Twitter",
+            "link": "https://twitter.com"
+        },
+        {
+            "label": "Facebook",
+            "link": "https://facebook.com"
+        },
+        {
+            "label": "LinkedIn",
+            "link": "https://linkedin.com"
+        }
+    ]
+}

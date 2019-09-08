@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "type": "npm",
+    "name": "react-portfolio",
+    "routes": [
+        {
+            "src": "/example",
+            "dest": "/404.html",
+            "status": 404
+        }
+    ]
+}
