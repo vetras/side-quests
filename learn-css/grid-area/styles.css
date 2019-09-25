@@ -1,0 +1,75 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+/* ============================================== */
+
+/* grid layout using grid area */
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+
+    /* rows / colum sizes, ignoring gaps because we used the gap above */
+    grid: 80px 5px 1fr 5px 80px / 150px 5px 1fr 5px 100px;
+    
+    /* each line is a grid row | each space creates a column | dots represent empty cells | a line of dots is a gap */
+    grid-template-areas:
+    "header header header header header"
+    ". . . . ."
+    "nav . main . right"
+    ". . . . ."
+    "footer footer footer footer footer"
+}
+
+.grid-header {
+    grid-area: header;
+}
+
+.grid-footer {
+    grid-area: footer;
+}
+
+.grid-nav {
+    grid-area: nav;
+}
+
+.grid-main {
+    grid-area: main;
+}
+
+.grid-right {
+    grid-area: right;
+}
+
+/* ============================================== */
+
+/* colors and text styles */
+
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.box {
+    border: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+/* ============================================== */

@@ -6,6 +6,7 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class BenchmarkApp {
@@ -13,6 +14,9 @@ public class BenchmarkApp {
     private static String tests = Loops.class.getSimpleName();
 
     public static void main(String[] args) throws RunnerException {
+
+        String _UUID = UUID.randomUUID().toString();
+
         Options opt = new OptionsBuilder()
                 .include(tests)
                 .timeUnit(TimeUnit.MILLISECONDS)
