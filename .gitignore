@@ -1,16 +1,33 @@
 # IDEs
 .vs/
 .vscode/
-.idea/
 **.suo
 **.user
 **.iml
+
+# IDES :: IDEA
+*.iws
+*.iml
+*.ipr
+.idea/libraries/
+.idea/modules/
+.idea/httpRequests/
+.idea/dataSources*
+.idea/sonarlint*
+.idea/sqldialects.xml
+.idea/rGraphicsSettings.xml
+.idea/rSettings.xml
+.idea/dbnavigator.xml
+.idea/workspace.xml
+.idea/dbnavigator.xml
 
 # builds
 bin/
 obj/
 dist/
 target/
+build/
+out/
 .settings/
 .project
 .classpath
@@ -23,3 +40,6 @@ node_modules/
 **.log
 **.dump
 **.pyc
+._*
+.Spotlight-V100
+.Trashes
