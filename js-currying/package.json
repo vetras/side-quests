@@ -1,0 +1,15 @@
+{
+  "name": "js-currying",
+  "version": "1.0.0",
+  "description": "learning example",
+  "author": "vetras",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm i && node -r esm main.js"
+  },
+  "devDependencies": {
+    "esm": "3.2.25"
+  }
+}
