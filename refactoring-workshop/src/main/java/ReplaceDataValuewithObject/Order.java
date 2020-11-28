@@ -1,8 +1,8 @@
 package ReplaceDataValuewithObject;
 
 public class Order {
-    private String price;
-    private String customer;
+    private final String price;
+    private final String customer;
 
     public Order(String customer, String price) {
         this.customer = customer;

@@ -15,7 +15,7 @@ Use brainsfirst project as an example and use the IDE to identify duplicated cod
 
 # Extract class
 
-Use the `Person class.
+Use the `Person` class.
 
 This is called "extract delegate" on intellij.
 
@@ -57,5 +57,8 @@ You have a data item (string postcode) that needs additional data or behavior.
 Turn the data item into an object.
 
 1. Open the `Order` object and run the unit tests
-1. Apply the refactor on price
+1. Apply the refactor on price with "extract delegate" on intellij.
+1. re-run the tests
+
+
 
