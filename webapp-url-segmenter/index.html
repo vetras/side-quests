@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body {
+        background-color: aliceblue;
+    }
+    .bg-red {
+        background-color: #e24864;
+    }
+
+    .bg-box {
+        padding: 10px;
+        display: inline;
+        float: left;
+        clear: both;
+    }
+
+    .container-txt-area {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .container-txt-area>textarea {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 8px;
+    }
+</style>
+
+<body>
+
+    <h2>Paste URL here:</h2>
+    <div class="container-txt-area">
+        <textarea id="url-input"></textarea>
+    </div>
+
+    <div class="container">
+        <p id="result-error"></p>
+    </div>
+
+    <div id="result-placeholder" class="container">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
