@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/SamuraiApp.Data/obj/SamuraiApp.Data.csproj.nuget.dgspec.json" />
         <option value="$PROJECT_DIR$/SamuraiApp/SamuraiApp.csproj" />
         <option value="$PROJECT_DIR$/SamuraiApp.Data/SamuraiContext.cs" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51060732-770a-43b7-9b24-ff9295b2ad59/console.sql" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -207,22 +207,22 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="514" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.970@0.23.1680.970" timestamp="1606590207012" />
-    <state width="1409" height="261" key="GridCell.Tab.0.bottom" timestamp="1606590161369">
+    <state width="1409" height="261" key="GridCell.Tab.0.bottom" timestamp="1606599727828">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1409" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1606590161369" />
-    <state width="1409" height="261" key="GridCell.Tab.0.center" timestamp="1606590161368">
+    <state width="1409" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1606599727828" />
+    <state width="1409" height="261" key="GridCell.Tab.0.center" timestamp="1606599727827">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1409" height="261" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1606590161368" />
-    <state width="1409" height="261" key="GridCell.Tab.0.left" timestamp="1606590161368">
+    <state width="1409" height="261" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1606599727827" />
+    <state width="1409" height="261" key="GridCell.Tab.0.left" timestamp="1606599727827">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1409" height="261" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1606590161368" />
-    <state width="1409" height="261" key="GridCell.Tab.0.right" timestamp="1606590161368">
+    <state width="1409" height="261" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1606599727827" />
+    <state width="1409" height="261" key="GridCell.Tab.0.right" timestamp="1606599727827">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1409" height="261" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1606590161368" />
+    <state width="1409" height="261" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1606599727827" />
     <state x="440" y="247" key="Rider.ProjectTemplateDialog.Size" timestamp="1606582500908">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
