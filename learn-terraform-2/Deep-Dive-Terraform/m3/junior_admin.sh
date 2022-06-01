@@ -1,8 +1,8 @@
 # Set AWS profile to use deep-dive
-export AWS_PROFILE=deep-dive
+#export AWS_PROFILE=learn-terraform-deep-dive
 
 # If you don't have jq installed, you're going to need it
-sudo apt install jq -y
+#sudo apt install jq -y
 
 # We're going to manually create two new subnets
 
@@ -23,15 +23,12 @@ priv_subnet=$(aws ec2 create-subnet --availability-zone-id $az \
 
 # Create a private route table for priv_subnet
 priv_rt=$(aws ec2 create-route-table --vpc-id $vpc_id)
-
 priv_rt_id=$(echo $priv_rt | jq .RouteTable.RouteTableId -r)
 
 # Get the subnet ID for the private subnet
-
 priv_subnet_id=$(echo $priv_subnet | jq .Subnet.SubnetId -r)
 
 # Associate route table with private subnet
-
 aws ec2 associate-route-table --route-table-id $priv_rt_id --subnet-id $priv_subnet_id
 
 # Get the public route table
