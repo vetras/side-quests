@@ -120,3 +120,31 @@ resource "aws_instance" "nginx2" {
 
 Allow TF to infer dependencies as much as possible.
 Only add `depends_on` when it is actually needed.
+
+## Managing Environments
+
+The TF State data should be per environment (not one state for all).
+
+Option without workspaces (not recommended):
+
+    tf plan -state="./dev/dev.state" -var-file="dev.tfvars" -var-file="common.tfvars"
+
+Using workspaces:
+
+    tf workspace new dev
+    tf plan
+
+Terraform will actually do something similar to the first approach, but its automated and managed by terraform.
+The `.terraform` folder will now have environments folder.
+The `.tfstate`file is now one folder that will contain a different sub-folder to store the state per environment.
+All the cli commands we run from now on are already using the current workspace files.
+
+### Sensitive Data
+
+Terraform can be integrated with the cloud KeyVault resource and then it loads the sensitive values directly.
+This is also the most secure way to use the sensitive data.
+
+
+
+
+
