@@ -43,3 +43,12 @@ node_modules/
 ._*
 .Spotlight-V100
 .Trashes
+
+# terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.plan
+*.tfplan
+*.hcl
+
