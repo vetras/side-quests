@@ -2,9 +2,6 @@
 
 Terraform - Getting Started :: `https://app.pluralsight.com/courses/36823bfe-0f74-43b2-ac5d-760bb7dbe19d/table-of-contents`
 
-WIP next is: chapter 9: Using Workspaces for Multiple Environments
-https://app.pluralsight.com/course-player?clipId=bb9b8dbf-04b3-466f-9f02-a6b636808618
-
 ## Example Version
 
 We have different examples of the same app.
