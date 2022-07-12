@@ -12,6 +12,7 @@ Each adds new TF features as we learn them.
  1. v3 makes our static site code come from a S3 bucket. We remove the need of custom ENV vars for AWS credentials
  1. v4 adds naming conventions, TF functions and TF loops to remove duplication
  1. v5 downloads a TF modules for VPC and we create a custom TF module for S3
+ 1. v6 uses TF workspaces
 
 ## Main concepts
 
