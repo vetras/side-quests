@@ -1,11 +1,11 @@
 # Import the AWS module
 Import-Module AWSPowerShell.NetCore
 
-#Select the AWS profile deep-dive
-Set-AWSCredential -ProfileName "deep-dive"
+#Select the AWS profile learn-terraform-deep-dive
+Set-AWSCredential -ProfileName "learn-terraform-deep-dive"
 
 #Set the default region as applicable
-$region = "us-east-1"
+$region = "eu-west-1"
 Set-DefaultAWSRegion -Region $region
 
 #Get the VPC and AZs
